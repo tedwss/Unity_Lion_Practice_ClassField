@@ -56,23 +56,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11152}
+      Script: {instanceID: 13522}
     - Class: 114
-      Script: {instanceID: 11308}
+      Script: {instanceID: 13676}
     - Class: 114
-      Script: {instanceID: 11348}
+      Script: {instanceID: 13716}
     - Class: 114
-      Script: {instanceID: 11400}
+      Script: {instanceID: 13766}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 14098}
     - Class: 114
-      Script: {instanceID: 12086}
+      Script: {instanceID: 14448}
     - Class: 114
-      Script: {instanceID: 12112}
+      Script: {instanceID: 14474}
     - Class: 114
-      Script: {instanceID: 12588}
+      Script: {instanceID: 14934}
     - Class: 114
-      Script: {instanceID: 12936}
+      Script: {instanceID: 15280}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -529,4 +529,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - "Assets/\u7DF4\u7FD2\u5834\u666F.unity"
-  playerPath: D:/Csharp/Unity_Lion_Practice_ClassField/WebGL/batandslime1
+  playerPath: C:/ted/Unity_Lion_Practice_ClassField/WebGL

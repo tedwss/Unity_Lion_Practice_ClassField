@@ -16,14 +16,15 @@ public class bat : MonoBehaviour
 
     public void Attack()
     {
-        result.text = 史萊姆.name + "受到傷害 : " + 攻擊力 + "\n";
         史萊姆.Hurt();
+        result.text = 史萊姆.name + "受到傷害 : " + 攻擊力 + "\n";
+        result.text += "\n" + 史萊姆.name + "血量剩下" + 史萊姆.血量;
+        
     }
 
     public void Hurt()
     {
-    int 總血量 = 血量 -= 史萊姆.攻擊力;
-    result.text += "\n" + gameObject.name + "血量剩下" + 總血量;
+        血量 -= 史萊姆.攻擊力;
     }
 
     public void Cure()

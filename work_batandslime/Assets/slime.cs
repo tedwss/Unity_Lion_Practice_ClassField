@@ -16,14 +16,14 @@ public class slime : MonoBehaviour
 
     public void Attack()
     {
-        result.text = 蝙蝠.name + "受到傷害 : " + 攻擊力 + "\n";
         蝙蝠.Hurt();
+        result.text = 蝙蝠.name + "受到傷害 : " + 攻擊力 + "\n";
+        result.text += "\n" + 蝙蝠.name + "血量剩下" + 蝙蝠.血量;
     }
 
     public void Hurt()
     {
-    int 總血量 = 血量 -= 蝙蝠.攻擊力;
-    result.text += "\n" + gameObject.name + "血量剩下" + 總血量;
+        血量 -= 蝙蝠.攻擊力;
     }
 
     public void Cure()
